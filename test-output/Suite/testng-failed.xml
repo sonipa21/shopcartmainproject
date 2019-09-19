@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.shopcart.localization.testcases.PrestsShopPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPopTest"/>
+        </methods>
+      </class> <!-- com.shopcart.localization.testcases.PrestsShopPageTest -->
+      <class name="com.shopcart.Catalog.testcases.ProductsPageTest">
+        <methods>
+          <include name="verifyPageTitle"/>
+          <include name="setUp"/>
+          <include name="verifyOneOfTheItemTest"/>
+          <include name="tearDown"/>
+          <include name="verifyDeleteProductest"/>
+          <include name="verifyPriceTabTest"/>
+        </methods>
+      </class> <!-- com.shopcart.Catalog.testcases.ProductsPageTest -->
+      <class name="com.shopcart.dashboard.testcases.DashboardPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyIconBtnTest"/>
+          <include name="verifyShoppingCartIcon"/>
+          <include name="verifyhelpBtnTest"/>
+          <include name="verifyPageTitleTest"/>
+          <include name="setUp"/>
+          <include name="verifypageLabel"/>
+          <include name="verifylocalization"/>
+        </methods>
+      </class> <!-- com.shopcart.dashboard.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+		<listener class-name="com.shopcart.Util.ExtentReporterNG" />
+		<listener class-name="com.shopcart.Util.CustomListener/>"
+	</listeners>
+	
+  <test thread-count="5" name="Test">
+    <classes>
+      <!-- <class name="com.shopcart.Catalog.testcases.CategoriesPagetTest"/>
+      <class name="com.shopcart.Catalog.testcases.ProductsPageTest"/> -->
+      <class name="com.shopcart.dashboard.testcases.DashboardPageTest"/>
+     <!--  <class name="com.shopcart.localization.testcases.PrestsShopPageTest"/>
+      <class name="com.shopcart.Catalog.testcases.SuppliersPageTest"/> -->
+      <class name="com.shopcart.dashboard.testcases.LoginPageTest"/>
+      <!-- <class name="com.shopcart.localization.testcases.LanguagesPageTest"/>
+      <class name="com.shopcart.Catalog.testcases.ManufacturerPageTest"/>
+      <class name="com.shopcart.Catalog.testcases.ProductAttributePageTest"/>
+      <class name="com.shopcart.localization.testcases.LocalizationPageTest"/>
+      <class name="com.shopcart.Catalog.testcases.TagsPageTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
